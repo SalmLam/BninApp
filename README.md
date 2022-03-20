@@ -52,6 +52,6 @@ The project's structure contains six packages :
 ## References 
 - Spoonacular documentation :  https://spoonacular.com/food-api/docs
 - Fuel Tutorial : https://blog.ippon.fr/2018/11/30/android-architecture-components-mise-en-pratique-part-5-fuel/
-- RecyclerView documentation : https://developer.android.com/guide/topics/ui/layout/recyclerviewgclid=CjwKCAjwoduRBhA4EiwACL5RPwFLig9K5ugJ8TeJ8XrjL2cuhooAq5WiNo_0ys82ygeubZM0tzZnXRoCm-UQAvD_BwE&gclsrc=aw.ds 
+- RecyclerView documentation : https://developer.android.com/guide/topics/ui/layout/recyclerview
 - Room documentatioon : https://developer.android.com/training/data-storage/room
 
