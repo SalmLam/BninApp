@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5sp"
+    android:layout_marginTop="5sp"
+    android:layout_marginRight="5sp"
+    android:layout_marginBottom="5sp"
+    app:cardBackgroundColor="@color/LightGreen">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/recipe_image"
+            android:layout_width="110sp"
+            android:layout_height="90sp"
+            android:layout_marginStart="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="VectorDrawableCompat"
+            android:clickable="true"/>
+
+        <TextView
+            android:id="@+id/recipe_name"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="64dp"
+            android:layout_marginRight="16dp"
+            android:text="Name"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/recipe_image"
+            app:layout_constraintTop_toTopOf="parent"
+            android:clickable="true"/>
+
+        <TextView
+            android:id="@+id/health_score"
+            style="@style/CardInformationStyle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ic_health_score"
+            app:layout_constraintTop_toBottomOf="@+id/recipe_name" />
+        <TextView
+            android:id="@+id/recipe_time"
+            style="@style/CardInformationStyle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ic_timer"
+            app:layout_constraintTop_toBottomOf="@+id/health_score" />
+
+        <ImageView
+            android:id="@+id/ic_health_score"
+            style="@style/CardInformationIconStyle"
+            app:layout_constraintTop_toBottomOf="@id/recipe_name"
+            app:layout_constraintLeft_toRightOf="@id/recipe_image"
+            app:srcCompat="@drawable/ic_nutrition"/>
+        <ImageView
+            android:id="@+id/ic_timer"
+            style="@style/CardInformationIconStyle"
+            app:layout_constraintTop_toBottomOf="@id/ic_health_score"
+            app:layout_constraintLeft_toRightOf="@id/recipe_image"
+            app:srcCompat="@drawable/ic_timer"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
+
+

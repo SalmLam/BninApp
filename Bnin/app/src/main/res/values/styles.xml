@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CheckboxStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:buttonTint">@color/Green</item>
+        <item name="android:clickable">false</item>
+    </style>
+    <style name="NutritionalInformationIconStyle">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <style name="NutritionalInformationStyle">
+        <item name="android:layout_width" >200dp</item>
+        <item name="android:layout_height" >match_parent</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/Green</item>
+        <item name="android:gravity">left</item>
+        <item name="android:paddingStart">40dp</item>
+    </style>
+    <style name="CardInformationStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart" >8dp</item>
+        <item name="android:layout_marginLeft" >8dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:layout_marginEnd">64dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="CardInformationIconStyle">
+        <item name="android:layout_width">18dp</item>
+        <item name="android:layout_height">18dp</item>
+        <item name="android:layout_marginLeft" >8dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+    </style>
+</resources>
