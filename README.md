@@ -2,6 +2,9 @@
 
 Bnin is an android application that gives users random recipes to help them decide what to cook :-)
 
+## Authors 
+- Lamyaghri Salma
+- Ridouan Aicha 
 ## Overview
 
 Bnin consumes the api : https://spoonacular.com/food-api : 
